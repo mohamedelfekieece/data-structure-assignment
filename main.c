@@ -17,6 +17,7 @@ struct node{
     struct student * data;
     struct node * next;
     };
+// Head and tail initialization
 struct node * head = NULL;
 struct node * tail = NULL;
 
